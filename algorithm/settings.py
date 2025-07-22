@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "rest_framework",
     "its_coding_test",
+    "codeup",
 ]
 
 MIDDLEWARE = [
