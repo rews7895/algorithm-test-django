@@ -4,8 +4,10 @@ from utils.support import measure_time_and_memory
 
 
 class Command(BaseCommand):
-    help = "CodeUp 6008"
+    help = "CodeUp 6015"
 
     @measure_time_and_memory
     def handle(self, *args, **options):
-        print('print("Hello\\nWorld")')
+        a, b = input().split()
+        print(int(a))
+        print(int(b))

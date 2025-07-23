@@ -4,8 +4,10 @@ from utils.support import measure_time_and_memory
 
 
 class Command(BaseCommand):
-    help = "CodeUp 6008"
+    help = "CodeUp 6018"
 
     @measure_time_and_memory
     def handle(self, *args, **options):
-        print('print("Hello\\nWorld")')
+        a, b = input().split(':')
+        # sep: seperator의 약자
+        print(a, b, sep=':')
