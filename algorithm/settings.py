@@ -44,13 +44,6 @@ INSTALLED_APPS = [
     "rest_framework",
     "its_coding_test",
     "codeup",
-    'programmers_lv0',
-    'programmers_lv1',
-    'programmers_lv2',
-    'programmers_lv3',
-    'programmers_lv4',
-    'programmers_lv5',
-    'programmers_lv6',
 ]
 
 MIDDLEWARE = [
