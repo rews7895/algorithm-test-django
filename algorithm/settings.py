@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "its_coding_test",
     "codeup",
+    "programmers",
 ]
 
 MIDDLEWARE = [
