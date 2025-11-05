@@ -1,0 +1,6 @@
+[MASTER]
+load-plugins=pylint_django
+django-settings-module=algorithm.settings
+
+[DESIGN]
+max-attributes=7
